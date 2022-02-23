@@ -1,1 +1,1 @@
-This is a logical seperationn of data.
+This is a logical seperation of data.
