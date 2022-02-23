@@ -41,5 +41,34 @@ Now open the command prompt and type the command **terraform version** to get th
 
 once this is done, you have successfully installed the terraform on your system.
 
+**Run Terraform on the VSCode**
+
+Download the Azure CLI and install
+
+It is used as to connect with the azure environment and deploy the resources.
+https://docs.microsoft.com/en-us/cli/azure/install-azure-cli-windows?tabs=azure-cli#latest-version
+
+![image](https://user-images.githubusercontent.com/30388181/155293731-dc991b02-4ba5-4c47-9ab2-58fdd2bf715c.png)
+
+Download the VSCode Next.
+https://code.visualstudio.com/Download
+
+Once we installed the VSCode, we are gonna install the extensions. Extension provide us the extra help that make VSCode easier to use.
+* Azure CLI Tools
+* HashiCorp Terraform
+* Bracket Pair Colorizer 2 ( This is optional but it is helpful in keeping an order especially complex files.)
+
+Last things need to be done is go to the terminal and click on the new termainal and type **terraform version** and **az version** to checking it providing output.
+![image](https://user-images.githubusercontent.com/30388181/155295561-d3d3033c-ab52-473a-ba1c-dda1d257b95b.png)
+
+Once that is done, we are ready to use terraform with VSCode. 
+
+Happy Learning 👍
+
+
+
+
+
+
 
 
