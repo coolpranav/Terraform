@@ -77,6 +77,7 @@ There can be other configuration files for the large set of environments like fo
 ![image](https://user-images.githubusercontent.com/30388181/155321673-797c8678-8b8f-4ec8-9e9b-dde18aa39fa5.png)
 
 Terraform files starts with the provider block which tells terraform which provider we are working with. Is it Azure,AWS,GCP,Alibaba etc.
+https://registry.terraform.io/
 
 ![image](https://user-images.githubusercontent.com/30388181/155322092-7acbbc43-7560-4fe4-ae5f-e2e79c9e3efc.png)
 
