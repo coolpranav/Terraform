@@ -64,7 +64,7 @@ Last things need to be done is go to the terminal and click on the new termainal
 
 Once that is done, we are ready to use terraform with VSCode. 
 
-Terraform WorkFlow(write,Plan,Apply)
+**Terraform WorkFlow(write,Plan,Apply)**
 
 **write** Terraform uses directory as a workspace. While working with the CLI, Directory is considered as the root module.
 ![image](https://user-images.githubusercontent.com/30388181/155320678-d6b6edc8-b764-43de-80dd-d03d48221e7d.png)
