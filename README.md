@@ -32,10 +32,12 @@ Create a directory in the C drive as Terraform and Extract the Executabe at same
 ![image](https://user-images.githubusercontent.com/30388181/155275052-4ebee97e-9630-4328-a1b0-f9254d2aad59.png)
 
 Set the path of the location over the Environment variable.
-![image](https://user-images.githubusercontent.com/30388181/155278686-8429b2d0-5dbb-47d2-91fb-3f5c4212862d.png)
+![image](https://user-images.githubusercontent.com/30388181/155290192-82a35440-f5fe-43ba-90f1-11bd896b4db4.png)
+
 
 Now open the command prompt and type the command **terraform version** to get the version of the terraform.
-![image](https://user-images.githubusercontent.com/30388181/155279946-c47b4622-321f-4bf8-8440-541db49fc7a5.png)
+![image](https://user-images.githubusercontent.com/30388181/155290305-42ec1c86-e8f9-481f-8a63-3d3b1dd9d7ca.png)
+
 
 once this is done, you have successfully intalled the terraform on your system.
 
