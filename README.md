@@ -39,7 +39,7 @@ Now open the command prompt and type the command **terraform version** to get th
 ![image](https://user-images.githubusercontent.com/30388181/155290305-42ec1c86-e8f9-481f-8a63-3d3b1dd9d7ca.png)
 
 
-once this is done, you have successfully intalled the terraform on your system.
+once this is done, you have successfully installed the terraform on your system.
 
 
 
