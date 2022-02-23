@@ -83,19 +83,23 @@ Terraform files starts with the provider block which tells terraform which provi
 **Terraform Commands**
 
 **Initialization**
+
 when we have a code written, we can initialize the directory through the **terraform init** command. Directory has to be initialized before moving towards planning. Initialization creates a hidden directory **.terraform**. This directory used to cache the modules and the plugins.
 
 Initialization also creates **.terraform.lock.hcl** file to track the dependencies of the configuration.
 Any changes to the configuration files in the directory should be followed by initialization to update the state and any require modules.
 
 **Plan**
+
 Once we performed the initialization, we move to plan through **terraform plan**. This command will read the current state of the object and make sure if it's up to date and compare with the old configuration to check the difference. After that it creates the plan of the changes that will take place.
 
 **Apply** 
+
 once we verified the changes, they we can use the **terraform apply** to apply the changes. By default **terraform apply** will also run **terraform plan** before the **terraform apply**. so, we can use the **terraform apply** and skip **terraform plan** if we are confident with the configuration.
 
 **Remove**
-If you wanted to undo all the changes that was done then we can use the **terrafor destrop** to do so.
+
+If you wanted to undo all the changes that was done then we can use the **terraform destroy** to do so.
 ![image](https://user-images.githubusercontent.com/30388181/155325639-4486ca67-8c0f-4be2-82f5-72ac3f6d5e3b.png)
 
 Happy Learning 👍
