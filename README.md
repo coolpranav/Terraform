@@ -58,7 +58,8 @@ Once we installed the VSCode, we are gonna install the extensions. Extension pro
 * HashiCorp Terraform
 * Bracket Pair Colorizer 2 ( This is optional but it is helpful in keeping an order especially complex files.)
 
-Last things need to be done is go to the terminal and click on the new termainal and type **terraform version** and **az version** to checking it providing output.
+Last things need to be done is go to the terminal and click on the new termainal and type **terraform version** and **az version** to check an output from VS.
+
 ![image](https://user-images.githubusercontent.com/30388181/155295561-d3d3033c-ab52-473a-ba1c-dda1d257b95b.png)
 
 Once that is done, we are ready to use terraform with VSCode. 
