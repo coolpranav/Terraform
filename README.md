@@ -64,6 +64,38 @@ Last things need to be done is go to the terminal and click on the new termainal
 
 Once that is done, we are ready to use terraform with VSCode. 
 
+Terraform WorkFlow(write,Plan,Apply)
+
+**write** Terraform uses directory as a workspace. While working with the CLI, Directory is considered as the root module.
+![image](https://user-images.githubusercontent.com/30388181/155320678-d6b6edc8-b764-43de-80dd-d03d48221e7d.png)
+
+**Terraform files**
+Terraform Files ends with the **.tf** extension(there is also file where it ends with the .tf.json extension).
+Common Files that we see in the teraform will be **main.tf**. This is used as a main set of configuration for a project.
+There can be other configuration files for the large set of environments like for SQL database, App Services etc., but Terraform will consider all of them as single configuration. We only split to make easier to understand and read.
+![image](https://user-images.githubusercontent.com/30388181/155321673-797c8678-8b8f-4ec8-9e9b-dde18aa39fa5.png)
+
+Terraform files starts with the provider block which tells terraform which provider we are working with. Is it Azure,AWS,GCP,Alibaba etc.
+![image](https://user-images.githubusercontent.com/30388181/155322092-7acbbc43-7560-4fe4-ae5f-e2e79c9e3efc.png)
+
+**Terraform Commands**
+
+**Initialization**
+when we have a code written, we can initialize the directory through the **terraform init** command. Directory has to be initialized before moving towards planning. Initialization creates a hidden directory **.terraform**. This directory used to cache the modules and the plugins.
+
+Initialization also creates **.terraform.lock.hcl** file to track the dependencies of the configuration.
+Any changes to the configuration files in the directory should be followed by initialization to update the state and any require modules.
+
+**Plan**
+Once we performed the initialization, we move to plan through **terraform plan**. This command will read the current state of the object and make sure if it's up to date and compare with the old configuration to check the difference. After that it creates the plan of the changes that will take place.
+
+**Apply** 
+once we verified the changes, they we can use the **terraform apply** to apply the changes. By default **terraform apply** will also run **terraform plan** before the **terraform apply**. so, we can use the **terraform apply** and skip **terraform plan** if we are confident with the configuration.
+
+**Remove**
+If you wanted to undo all the changes that was done then we can use the **terrafor destrop** to do so.
+![image](https://user-images.githubusercontent.com/30388181/155325639-4486ca67-8c0f-4be2-82f5-72ac3f6d5e3b.png)
+
 Happy Learning 👍
 
 
